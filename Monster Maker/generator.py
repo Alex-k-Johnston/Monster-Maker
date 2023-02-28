@@ -30,7 +30,7 @@ def frame(map, width, height):
     for h_index in range(height):
         for w_index in range(width):
             if map[h_index][w_index] == 0:
-                if map[h_index][w_index - 1] == 0 and map[h_index][w_index]== map[h_index-1][w_index]:
+                if map[h_index][w_index - 1] == 0:
                     map[h_index][w_index] = 3
                 #elif map[h_index][w_index] == 
                 
